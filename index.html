@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang=fa>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="all">
+        <div id="h"><h2>فرم ثبت نام</h2></div>
+        <form method="post" id="myForm">
+            <div class="imgcontainar">
+                <img src="./img/Capture.JPG" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <fieldset id="border">
+                    <input id="user_name" type="text" placeholder="نام کاربری" name="uname" required>
+                </fieldset>
+                <p class="nessery user">ازامی</p>
+                
+            
+                <fieldset id="border2">
+                    <legend id="legend1">رمز عبور</legend>
+                    <input id="password" type="password" placeholder="رمز عبور" name="psw" required>
+                </fieldset>
+                <p class="nessery pass">ازامی</p>
+                <p class="passworld">رمزهای وارد شده یکسان نیستند</p>
+                <p class="karecter">رمز عبور حد اقل 8 کارکتروحد اقل یک حرف و یک عدد باشد</p>
+
+                <fieldset id="border3">
+                    <legend id="legend2">تایید رمز عبور</legend>
+                    <input id="password_chek" type="password" placeholder="تکرار رمز عبور" name="psw" required>
+                </fieldset>
+                <p class="nessery pass2">ازامی</p>
+                <p class="passworld">رمزهای وارد شده یکسان نیستند</p>
+                <p class="karecter">رمز عبور حد اقل 8 کارکتروحد اقل یک حرف و یک عدد باشد</p>
+                    
+                <button id="buttom" type="submit">تبت نام</button>
+              </div>
+        </form>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html
